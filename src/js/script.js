@@ -1,22 +1,31 @@
 'use strict';
 
-const numberOfFilms = +prompt('скільки фільмів ти вже подивився?', '');
+/* const num = 40;
 
-const personalMovieDB = {
-    count: numberOfFilms,
-    movies: {},
-    actors: {},
-    genres: [],
-    privat: false
-};
+if (num <= 9) {
+    console.log('corect');
+} else if (num === 40) {
+    console.log('неправильно');
+} else {
+    console.log('хуй на тебе');
+}
 
-const oneOfLastFilmWathed = prompt('Один з послідніх просмотрених фільмів?', '');
-const rating = prompt('На скільки оціниш його?', '');
-const oneOfLastFilmWathed1 = prompt('Один з послідніх просмотрених фільмів?', '');
-const rating1 = prompt('На скільки оціниш його?', '');
+(num == 10) ? console.log('неправильно лошара') : console.log('молодець!'); */
 
-personalMovieDB.movies[oneOfLastFilmWathed] = rating;
-personalMovieDB.movies[oneOfLastFilmWathed1] = rating1;
+const num = 10;
 
-console.log(personalMovieDB);
+switch (num) {
+    case 11:
+        console.log('неправильно');
+        break;
+    case 100:
+        console.log('аш ніяк');
+        break;
+    case 45:
+        console.log('молодець!');
+        break;
+    default:
+        console.log('значить не судьба');
+        break;
+}
 
