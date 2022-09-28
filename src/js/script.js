@@ -1,31 +1,21 @@
 'use strict';
 
-/* const num = 40;
+const str = 'teSt';
 
-if (num <= 9) {
-    console.log('corect');
-} else if (num === 40) {
-    console.log('неправильно');
-} else {
-    console.log('хуй на тебе');
-}
+console.log(str.toLocaleUpperCase());
+console.log(str.toLocaleLowerCase());
 
-(num == 10) ? console.log('неправильно лошара') : console.log('молодець!'); */
+const fruit = 'some fruit';
 
-const num = 10;
+console.log(fruit.indexOf('fruit'));
 
-switch (num) {
-    case 11:
-        console.log('неправильно');
-        break;
-    case 100:
-        console.log('аш ніяк');
-        break;
-    case 45:
-        console.log('молодець!');
-        break;
-    default:
-        console.log('значить не судьба');
-        break;
-}
+const logg = 'hello world';
+console.log(logg.slice(6, 11));
+console.log(logg.slice(2, 8));
+
+const num = 12.2;
+console.log(Math.round(num)); //округлює числа
+
+const test = '12.2px';
+console.log(parseInt(test));
 
